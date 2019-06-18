@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RegistrationViewController.swift
 //  Hotel Manzana
 //
 //  Created by Denis Bystruev on 18/06/2019.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RegistrationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
