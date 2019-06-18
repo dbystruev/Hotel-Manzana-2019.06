@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		694F1E1D22B9863F0076B9C0 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 694F1E1B22B9863F0076B9C0 /* Screen2.png */; };
+		694F1E1E22B9863F0076B9C0 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 694F1E1C22B9863F0076B9C0 /* Screen1.png */; };
 		695A69B422B954EE00FD1C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A69B322B954EE00FD1C94 /* AppDelegate.swift */; };
 		695A69B622B954EE00FD1C94 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695A69B522B954EE00FD1C94 /* RegistrationViewController.swift */; };
 		695A69B922B954EE00FD1C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695A69B722B954EE00FD1C94 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		694F1E1B22B9863F0076B9C0 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
+		694F1E1C22B9863F0076B9C0 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
 		695A69B022B954EE00FD1C94 /* Hotel Manzana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hotel Manzana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		695A69B322B954EE00FD1C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		695A69B522B954EE00FD1C94 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		694F1E1A22B986310076B9C0 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				694F1E1C22B9863F0076B9C0 /* Screen1.png */,
+				694F1E1B22B9863F0076B9C0 /* Screen2.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		695A69A722B954EE00FD1C94 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +112,7 @@
 		695A69C822B955E600FD1C94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				694F1E1A22B986310076B9C0 /* Screenshots */,
 				695A69BA22B9550000FD1C94 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -171,9 +185,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694F1E1D22B9863F0076B9C0 /* Screen2.png in Resources */,
 				695A69BE22B9550000FD1C94 /* LaunchScreen.storyboard in Resources */,
 				695A69BB22B9550000FD1C94 /* Assets.xcassets in Resources */,
 				695A69B922B954EE00FD1C94 /* Main.storyboard in Resources */,
+				694F1E1E22B9863F0076B9C0 /* Screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
